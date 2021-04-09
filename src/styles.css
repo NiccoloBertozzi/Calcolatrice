@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+p {
+    line-height: 10px;
+}
+
+body {
+    background-color: #222;
+}
+
+button:focus {
+    outline: 0;
+}

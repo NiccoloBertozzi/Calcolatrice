@@ -1,0 +1,35 @@
+<div class="box">
+    <div class="display">
+        <input type="text" id="txtdisplay" Enabled="False" [(ngModel)]="display" />
+    </div>
+    <div class="keys ">
+        <p>
+            <input type="button " class="button black " id="Button1 " (click)="btnNumero_Click(7)" value="7" readonly />
+            <input type="button " class="button black " id="Button2 " (click)="btnNumero_Click(8)" value="8" readonly />
+            <input type="button " class="button black " id="Button3 " (click)="btnNumero_Click(9)" value="9" readonly />
+            <input type="button " class="button pink " id="Button4 " (click)="btnOperatore_Click('*')" value="&times;" readonly />
+        </p>
+        <p>
+            <input type="button " class="button black " id="Button9 " (click)="btnNumero_Click(4)" value="4" readonly />
+            <input type="button " class="button black " id="Button10 " (click)="btnNumero_Click(5)" value="5" readonly />
+            <input type="button " class="button black " id="Button11 " (click)="btnNumero_Click(6)" value="6" readonly />
+            <input type="button " class="button pink " id="Button12 " (click)="btnOperatore_Click('-')" value="-" readonly />
+        </p>
+        <p>
+            <input type="button " class="button black " id="Button13 " (click)="btnNumero_Click(1)" value="1" readonly />
+            <input type="button " class="button black " id="Button14 " (click)="btnNumero_Click(2)" value="2" readonly />
+            <input type="button " class="button black " id="Button15 " (click)="btnNumero_Click(3)" value="3" readonly />
+            <input type="button " class="button pink " id="Button16 " (click)="btnOperatore_Click('+')" value="+" readonly />
+        </p>
+        <p>
+            <input type="button " class="button black " id="Button5 " (click)="btnNumero_Click(0)" value="0" readonly />
+            <input type="button " class="button pink " id="Button6 " (click)="btnOperatore_Click('!')" value="!" readonly />
+            <input type="button " class="button pink " id="Button7 " (click)="btnOperatore_Click('^')" value="^" readonly />
+            <input type="button " class="button pink " id="Button8 " (click)="btnOperatore_Click('/')" value="&divide;" readonly />
+        </p>
+        <p>
+            <input type=" button " class="button orange " id="Button17 " (click)="btnRisultato_Click()" value="=" readonly />
+            <input type=" button " class="button black " id="Button18 " (click)="btnPulisci_Click()" value="AC " readonly />
+        </p>
+    </div>
+</div>
